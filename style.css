@@ -1,0 +1,75 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5e8e4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  color: #c47f6b;
+  text-align: center;
+}
+
+h2 {
+  color: #c47f6b;
+  border-bottom: 2px solid #c47f6b;
+  padding-bottom: 5px;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.prep-time,
+.ingredients,
+.instructions,
+.nutrition {
+  margin-top: 20px;
+}
+
+ul,
+ol {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #c47f6b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+td:first-child {
+  font-weight: bold;
+}
